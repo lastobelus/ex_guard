@@ -24,7 +24,7 @@ defmodule ExGuard.Mixfile do
   end
 
   defp deps do
-    [{:fs, "~> 0.9"}, {:ex_doc, "~> 0.23.0", only: :dev}, {:earmark, "~> 1.4.10", only: :dev}]
+    [{:fs, "~> 6.9"}, {:ex_doc, "~> 0.23.0", only: :dev}, {:earmark, "~> 1.4.10", only: :dev}]
   end
 
   defp package do
